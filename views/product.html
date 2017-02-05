@@ -1,0 +1,10 @@
+<div class="col-md-4" s>
+    <img ng-src="{{ $ctrl.product.image }}">
+    <div>
+        {{ $ctrl.product.name }}
+    </div>
+    <div>
+        {{ $ctrl.product.description }}
+    </div>
+    <button class="btn" ng-click="$ctrl.addProduct($ctrl.product)">Add product</button>
+</div>
